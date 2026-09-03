@@ -104,15 +104,3 @@ Or clone into your agent's skill root — `~/.claude/skills/` (Claude Code), `~/
 "load ch10"     # construct theory for higher-order skills
 "load ch11"     # mathematics + the documented AI failure modes
 ```
-
----
-
-## Provenance and copyright
-
-Generated with [book-to-skill](https://github.com/virgiliojr94/book-to-skill), then cross-checked with a second independent pass using [cangjie-skill](https://github.com/kangarooking/cangjie-skill), whose stricter promotion gate (would a user request this *without naming the book?*) promoted only 7 of 179 extracted candidates — a useful measure of how much of the volume is executable versus commentary.
-
-**The content here is synthesized, not reproduced.** Frameworks, principles, decision rules and techniques restated in different words; no block quotes, no reproduced rubrics, no copied passages. A mechanical n-gram audit against the source found only chapter titles and proper framework names in common.
-
-**This does not make it redistributable.** The underlying book is © 2025 IGI Global Scientific Publishing, all rights reserved. This repository is a **private study aid** derived from that work. Do not make it public unless you hold rights to redistribute material derived from the source. If you want the frameworks, buy the book — the publisher's ISBN is 979-8-3693-6351-5.
-
-Full credit to the editors and the eleven chapter author teams; the intellectual content is theirs.
