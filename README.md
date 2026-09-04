@@ -92,14 +92,14 @@ Ch6 lists reverting to in-class timed assessment as an anti-pattern; Ch2 and Ch1
 npx skills add https://github.com/aristai-support/educational-assessment-skill --skill educational-assessment
 ```
 
-**This repository is private**, so the installer needs a GitHub credential with read access to it. If `npx skills add` cannot reach it, clone directly instead — `gh` handles the auth for you:
+Or clone directly into your agent's skill root:
 
 ```bash
 # Claude Code
-gh repo clone aristai-support/educational-assessment-skill ~/.claude/skills/educational-assessment
+git clone https://github.com/aristai-support/educational-assessment-skill ~/.claude/skills/educational-assessment
 
 # Codex / Cursor / Amp and other cross-agent hosts
-gh repo clone aristai-support/educational-assessment-skill ~/.agents/skills/educational-assessment
+git clone https://github.com/aristai-support/educational-assessment-skill ~/.agents/skills/educational-assessment
 ```
 
 `SKILL.md` sits at the repository root, which is exactly the layout the `skills` CLI detects — no restructuring needed. Restart your agent session afterwards so it picks the skill up.
